@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "build": "deno x @tailwindcss/cli -i ./src/app.css -o ./src/styles.css -m",
+    "dev": "deno x @tailwindcss/cli -i ./src/app.css -o ./src/styles.css -m -w"
+  },
+  "imports": {
+    "@tailwindcss/cli": "npm:@tailwindcss/cli@^4.3.3",
+    "@tailwindcss/typography": "npm:@tailwindcss/typography@^0.5.20",
+    "daisyui": "npm:daisyui@^5.7.46",
+    "prettier": "npm:prettier@^3.9.9",
+    "prettier-plugin-tailwindcss": "npm:prettier-plugin-tailwindcss@^0.8.1",
+    "tailwindcss": "npm:tailwindcss@^4.3.3"
+  }
+}

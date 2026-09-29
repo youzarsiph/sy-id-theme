@@ -1,0 +1,38 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
+{
+  "name": "Node",
+  "image": "ghcr.io/devcontainers/templates/typescript-node:6.0.2",
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+  // Use 'postCreateCommand' to run commands after the container is created.
+  "postCreateCommand": "curl -fsSL https://deno.land/install.sh | sh",
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.associations": {
+          "*.css": "tailwindcss"
+        },
+        "editor.quickSuggestions": {
+          "strings": "on"
+        },
+        "tailwindCSS.includeLanguages": {
+          "plaintext": "html"
+        },
+        "tailwindCSS.emmetCompletions": true,
+        "tailwindCSS.experimental.configFile": "src/apps.css"
+      },
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "vscode-icons-team.vscode-icons",
+        "ms-vscode-remote.remote-containers",
+        "bradlc.vscode-tailwindcss",
+        "denoland.vscode-deno",
+        "EditorConfig.EditorConfig",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
