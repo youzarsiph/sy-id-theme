@@ -4,8 +4,8 @@
     "npm:@tailwindcss/cli@^4.3.3": "4.3.3",
     "npm:@tailwindcss/typography@~0.5.20": "0.5.20_tailwindcss@4.3.3",
     "npm:daisyui@^5.7.46": "5.7.46",
-    "npm:prettier-plugin-tailwindcss@~0.8.1": "0.8.1_prettier@3.9.9",
-    "npm:prettier@^3.9.9": "3.9.9",
+    "npm:prettier-plugin-tailwindcss@~0.8.1": "0.8.1_prettier@3.9.10",
+    "npm:prettier@^3.9.10": "3.9.10",
     "npm:tailwindcss@^4.3.3": "4.3.3"
   },
   "npm": {
@@ -392,14 +392,14 @@
         "util-deprecate"
       ]
     },
-    "prettier-plugin-tailwindcss@0.8.1_prettier@3.9.9": {
+    "prettier-plugin-tailwindcss@0.8.1_prettier@3.9.10": {
       "integrity": "sha512-iaFMYqDsE4ffdDkn5qup0j5f2aCEBFZrdrZnvu9QKTlWx/iGPeQ4HHu7b7fCPMxeo9nwQBiOAh2nSypdFYWJkw==",
       "dependencies": [
         "prettier"
       ]
     },
-    "prettier@3.9.9": {
-      "integrity": "sha512-Z/CJHIkdujO/OtN7nXUii0Rf3VT5SRuhjBA82Xvu2XhBUgX3nhP67T0LHceBdQLex7OOFGTox+Q5Yg8Jk2Qivg==",
+    "prettier@3.9.10": {
+      "integrity": "sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==",
       "bin": true
     },
     "source-map-js@1.2.1": {
@@ -427,7 +427,7 @@
       "npm:@tailwindcss/typography@~0.5.20",
       "npm:daisyui@^5.7.46",
       "npm:prettier-plugin-tailwindcss@~0.8.1",
-      "npm:prettier@^3.9.9",
+      "npm:prettier@^3.9.10",
       "npm:tailwindcss@^4.3.3"
     ]
   }
