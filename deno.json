@@ -9,6 +9,6 @@
     "daisyui": "npm:daisyui@^5.7.46",
     "prettier": "npm:prettier@^3.9.9",
     "prettier-plugin-tailwindcss": "npm:prettier-plugin-tailwindcss@^0.8.1",
-    "tailwindcss": "npm:tailwindcss@^4.3.3"
+    "tailwindcss": "npm:tailwindcss@^4.3.5"
   }
 }
